@@ -15607,12 +15607,12 @@ A3 Larger Frame</description>
 </class>
 </classes>
 <parts>
-<part name="ATMEGA328U" library="Bibsatmel" deviceset="MEGA8-P" device="" value="CONTROLLER"/>
+<part name="ATMEGA328" library="Bibsatmel" deviceset="MEGA8-P" device="" value="CONTROLLER"/>
 <part name="STEPPERDRIVER" library="pololu-allegro" deviceset="POLOLU-ALLEGRO" device="" value="POLOLU-A4988"/>
 <part name="XMS1" library="SparkFun" deviceset="M02" device="5MM" value="MOT-1"/>
 <part name="XMS2" library="SparkFun" deviceset="M02" device="5MM" value="MOT-2"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="JP1" library="pinhead" deviceset="PINHD-2X3" device=""/>
+<part name="JP1" library="pinhead" deviceset="PINHD-2X3" device="" value="microstep"/>
 <part name="C1" library="resistor" deviceset="C-EU" device="025-025X050" value="0.1uF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="C2" library="resistor" deviceset="CPOL-US" device="E2.5-6" value="47uF"/>
@@ -15623,19 +15623,19 @@ A3 Larger Frame</description>
 <part name="XMS3" library="SparkFun" deviceset="M02" device="5MM" value="MOT-1"/>
 <part name="XMS4" library="SparkFun" deviceset="M02" device="5MM" value="MOT-2"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="JP2" library="pinhead" deviceset="PINHD-2X3" device=""/>
+<part name="JP2" library="pinhead" deviceset="PINHD-2X3" device="" value="microstep"/>
 <part name="C4" library="resistor" deviceset="C-EU" device="025-025X050" value="0.1uF"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="C5" library="resistor" deviceset="CPOL-US" device="E2.5-6"/>
+<part name="C5" library="resistor" deviceset="CPOL-US" device="E2.5-6" value="47uF"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="STEPPERDRIVER2" library="pololu-allegro" deviceset="POLOLU-ALLEGRO" device="" value="POLOLU-A4988"/>
 <part name="XMS5" library="SparkFun" deviceset="M02" device="5MM" value="MOT-1"/>
 <part name="XMS6" library="SparkFun" deviceset="M02" device="5MM" value="MOT-2"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="JP3" library="pinhead" deviceset="PINHD-2X3" device=""/>
+<part name="JP3" library="pinhead" deviceset="PINHD-2X3" device="" value="microstep"/>
 <part name="C6" library="resistor" deviceset="C-EU" device="025-025X050" value="0.1uF"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="C7" library="resistor" deviceset="CPOL-US" device="E2.5-6"/>
+<part name="C7" library="resistor" deviceset="CPOL-US" device="E2.5-6" value="47uF"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="JP23" library="SparkFun" deviceset="M02" device="5MM" value="PWR SPLY"/>
 <part name="IC1" library="SparkFun" deviceset="V_REG_78XX" device="" value=" LM7805"/>
@@ -15656,20 +15656,20 @@ A3 Larger Frame</description>
 <part name="XMS7" library="SparkFun" deviceset="M02" device="5MM" value="MOT-1"/>
 <part name="XMS8" library="SparkFun" deviceset="M02" device="5MM" value="MOT-2"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="JP4" library="pinhead" deviceset="PINHD-2X3" device=""/>
+<part name="JP4" library="pinhead" deviceset="PINHD-2X3" device="" value="microstep"/>
 <part name="C3" library="resistor" deviceset="C-EU" device="025-025X050" value="0.1uF"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="C10" library="resistor" deviceset="CPOL-US" device="E2.5-6"/>
+<part name="C10" library="resistor" deviceset="CPOL-US" device="E2.5-6" value="47uF"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="U$1" library="SparkFun" deviceset="5V" device=""/>
 <part name="U$8" library="12v" deviceset="12V" device=""/>
-<part name="JP8" library="pinhead" deviceset="PINHD-2X3" device=""/>
+<part name="JP8" library="pinhead" deviceset="PINHD-2X3" device="" value="DualY"/>
 <part name="C8" library="resistor" deviceset="CPOL-US" device="E2.5-6" value="47uF"/>
 <part name="C9" library="resistor" deviceset="CPOL-US" device="E2.5-6" value="47uF"/>
 <part name="GND17" library="SparkFun" deviceset="GND" device=""/>
 <part name="C13" library="SparkFun" deviceset="CAP" device="PTH2" value="0.1uF"/>
 <part name="U$9" library="SparkFun" deviceset="5V" device=""/>
-<part name="Q2" library="crystal" deviceset="CRYSTAL" device="HC49S"/>
+<part name="Q2" library="crystal" deviceset="CRYSTAL" device="HC49S" value="16 MHZ"/>
 <part name="C11" library="SparkFun" deviceset="CAP" device="PTH2" value="18pF"/>
 <part name="C12" library="SparkFun" deviceset="CAP" device="PTH2" value="18pF"/>
 <part name="OK2" library="optocoupler" deviceset="6N137" device=""/>
@@ -15687,9 +15687,9 @@ A3 Larger Frame</description>
 <part name="GND18" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$14" library="12v" deviceset="12V" device=""/>
 <part name="U$12" library="SparkFun" deviceset="5V" device=""/>
-<part name="JP6" library="pinhead" deviceset="PINHD-2X3" device=""/>
+<part name="JP6" library="pinhead" deviceset="PINHD-2X3" device="" value="ICSP"/>
 <part name="R5" library="resistor" deviceset="R-EU_" device="0207/10" value="1k"/>
-<part name="LED1" library="led" deviceset="LED" device="5MM"/>
+<part name="LED1" library="led" deviceset="LED" device="5MM" value="Data"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="U$13" library="SparkFun" deviceset="5V" device=""/>
 <part name="GND20" library="SparkFun" deviceset="GND" device=""/>
@@ -15788,7 +15788,7 @@ A3 Larger Frame</description>
 <text x="266.7" y="185.42" size="1.778" layer="91" font="vector">SWITCHES AND CONNECTORS</text>
 </plain>
 <instances>
-<instance part="ATMEGA328U" gate="G$1" x="55.88" y="53.34"/>
+<instance part="ATMEGA328" gate="G$1" x="55.88" y="53.34"/>
 <instance part="STEPPERDRIVER" gate="G$1" x="160.02" y="58.42"/>
 <instance part="XMS1" gate="G$1" x="208.28" y="73.66" rot="R180"/>
 <instance part="XMS2" gate="G$1" x="208.28" y="58.42" rot="R180"/>
@@ -15877,10 +15877,10 @@ A3 Larger Frame</description>
 <instance part="S1" gate="S" x="20.32" y="83.82"/>
 <instance part="FRAME1" gate="G$1" x="-33.02" y="-63.5"/>
 <instance part="GND24" gate="1" x="256.54" y="129.54"/>
-<instance part="H5" gate="G$1" x="223.52" y="144.78"/>
-<instance part="H6" gate="G$1" x="223.52" y="137.16"/>
-<instance part="H7" gate="G$1" x="223.52" y="152.4"/>
-<instance part="H8" gate="G$1" x="223.52" y="160.02"/>
+<instance part="H5" gate="G$1" x="223.52" y="144.78" rot="R180"/>
+<instance part="H6" gate="G$1" x="223.52" y="137.16" rot="R180"/>
+<instance part="H7" gate="G$1" x="223.52" y="152.4" rot="R180"/>
+<instance part="H8" gate="G$1" x="223.52" y="160.02" rot="R180"/>
 <instance part="SWT" gate="G$1" x="27.94" y="5.08" rot="R180"/>
 <instance part="SWT1" gate="G$1" x="27.94" y="-10.16" rot="R180"/>
 <instance part="SWT2" gate="G$1" x="27.94" y="-25.4" rot="R180"/>
@@ -16036,7 +16036,7 @@ A3 Larger Frame</description>
 <wire x1="7.62" y1="50.8" x2="7.62" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="27.94" x2="7.62" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="ATMEGA328U" gate="G$1" pin="GND@1"/>
+<pinref part="ATMEGA328" gate="G$1" pin="GND@1"/>
 <pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="63.5" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="63.5" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
@@ -16049,7 +16049,7 @@ A3 Larger Frame</description>
 <wire x1="20.32" y1="33.02" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="27.94" x2="7.62" y2="27.94" width="0.1524" layer="91"/>
 <junction x="7.62" y="27.94"/>
-<pinref part="ATMEGA328U" gate="G$1" pin="GND"/>
+<pinref part="ATMEGA328" gate="G$1" pin="GND"/>
 <wire x1="33.02" y1="76.2" x2="7.62" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="76.2" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
 <junction x="7.62" y="63.5"/>
@@ -16060,6 +16060,7 @@ A3 Larger Frame</description>
 <wire x1="15.24" y1="81.28" x2="7.62" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="81.28" x2="7.62" y2="76.2" width="0.1524" layer="91"/>
 <junction x="7.62" y="76.2"/>
+<junction x="25.4" y="81.28"/>
 </segment>
 <segment>
 <pinref part="OK2" gate="A" pin="GND"/>
@@ -16082,18 +16083,30 @@ A3 Larger Frame</description>
 <wire x1="99.06" y1="-2.54" x2="99.06" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="223.52" y1="160.02" x2="256.54" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="160.02" x2="226.06" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="160.02" x2="256.54" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="160.02" x2="256.54" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="152.4" x2="256.54" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="144.78" x2="256.54" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="152.4" x2="226.06" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="152.4" x2="256.54" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="144.78" x2="226.06" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="144.78" x2="256.54" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="144.78" x2="256.54" y2="152.4" width="0.1524" layer="91"/>
 <junction x="256.54" y="152.4"/>
-<wire x1="223.52" y1="137.16" x2="256.54" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="137.16" x2="226.06" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="137.16" x2="256.54" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="137.16" x2="256.54" y2="144.78" width="0.1524" layer="91"/>
 <junction x="256.54" y="144.78"/>
 <pinref part="GND24" gate="1" pin="GND"/>
 <wire x1="256.54" y1="132.08" x2="256.54" y2="137.16" width="0.1524" layer="91"/>
 <junction x="256.54" y="137.16"/>
+<pinref part="H7" gate="G$1" pin="MOUNT"/>
+<junction x="226.06" y="152.4"/>
+<pinref part="H5" gate="G$1" pin="MOUNT"/>
+<junction x="226.06" y="144.78"/>
+<pinref part="H6" gate="G$1" pin="MOUNT"/>
+<junction x="226.06" y="137.16"/>
+<pinref part="H8" gate="G$1" pin="MOUNT"/>
+<junction x="226.06" y="160.02"/>
 </segment>
 <segment>
 <pinref part="SWT" gate="G$1" pin="2"/>
@@ -16164,7 +16177,7 @@ A3 Larger Frame</description>
 </net>
 <net name="MOTOR_DISABLE" class="0">
 <segment>
-<pinref part="ATMEGA328U" gate="G$1" pin="PB0(ICP)"/>
+<pinref part="ATMEGA328" gate="G$1" pin="PB0(ICP)"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="35.56" x2="99.06" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="35.56" x2="106.68" y2="35.56" width="0.1524" layer="91"/>
@@ -16194,7 +16207,7 @@ A3 Larger Frame</description>
 </net>
 <net name="Y-STEP" class="0">
 <segment>
-<pinref part="ATMEGA328U" gate="G$1" pin="PD3(INT1)"/>
+<pinref part="ATMEGA328" gate="G$1" pin="PD3(INT1)"/>
 <wire x1="81.28" y1="50.8" x2="83.82" y2="50.8" width="0.1524" layer="91"/>
 <label x="83.82" y="50.8" size="1.778" layer="95"/>
 </segment>
@@ -16216,7 +16229,7 @@ A3 Larger Frame</description>
 </net>
 <net name="Z-STEP" class="0">
 <segment>
-<pinref part="ATMEGA328U" gate="G$1" pin="PD4(XCK/T0)"/>
+<pinref part="ATMEGA328" gate="G$1" pin="PD4(XCK/T0)"/>
 <wire x1="81.28" y1="48.26" x2="83.82" y2="48.26" width="0.1524" layer="91"/>
 <label x="83.82" y="48.26" size="1.778" layer="95"/>
 </segment>
@@ -16228,7 +16241,7 @@ A3 Larger Frame</description>
 </net>
 <net name="X-DIR" class="0">
 <segment>
-<pinref part="ATMEGA328U" gate="G$1" pin="PD5(T1)"/>
+<pinref part="ATMEGA328" gate="G$1" pin="PD5(T1)"/>
 <wire x1="81.28" y1="45.72" x2="83.82" y2="45.72" width="0.1524" layer="91"/>
 <label x="83.82" y="45.72" size="1.778" layer="95"/>
 </segment>
@@ -16240,7 +16253,7 @@ A3 Larger Frame</description>
 </net>
 <net name="Y-DIR" class="0">
 <segment>
-<pinref part="ATMEGA328U" gate="G$1" pin="PD6(AIN0)"/>
+<pinref part="ATMEGA328" gate="G$1" pin="PD6(AIN0)"/>
 <wire x1="81.28" y1="43.18" x2="83.82" y2="43.18" width="0.1524" layer="91"/>
 <label x="83.82" y="43.18" size="1.778" layer="95"/>
 </segment>
@@ -16257,7 +16270,7 @@ A3 Larger Frame</description>
 </net>
 <net name="Z-DIR" class="0">
 <segment>
-<pinref part="ATMEGA328U" gate="G$1" pin="PD7(AIN1)"/>
+<pinref part="ATMEGA328" gate="G$1" pin="PD7(AIN1)"/>
 <wire x1="81.28" y1="40.64" x2="83.82" y2="40.64" width="0.1524" layer="91"/>
 <label x="83.82" y="40.64" size="1.778" layer="95"/>
 </segment>
@@ -16274,7 +16287,7 @@ A3 Larger Frame</description>
 <label x="127" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ATMEGA328U" gate="G$1" pin="PD2(INT0)"/>
+<pinref part="ATMEGA328" gate="G$1" pin="PD2(INT0)"/>
 <wire x1="81.28" y1="53.34" x2="83.82" y2="53.34" width="0.1524" layer="91"/>
 <label x="83.82" y="53.34" size="1.778" layer="95"/>
 </segment>
@@ -16380,7 +16393,7 @@ A3 Larger Frame</description>
 <segment>
 <wire x1="20.32" y1="40.64" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<pinref part="ATMEGA328U" gate="G$1" pin="VCC@1"/>
+<pinref part="ATMEGA328" gate="G$1" pin="VCC@1"/>
 <wire x1="20.32" y1="45.72" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="U$9" gate="G$1" pin="5V"/>
 <wire x1="15.24" y1="45.72" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
@@ -16405,10 +16418,10 @@ A3 Larger Frame</description>
 <pinref part="U$11" gate="G$1" pin="5V"/>
 </segment>
 <segment>
-<pinref part="ATMEGA328U" gate="G$1" pin="AVCC"/>
+<pinref part="ATMEGA328" gate="G$1" pin="AVCC"/>
 <wire x1="33.02" y1="71.12" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="U$12" gate="G$1" pin="5V"/>
-<pinref part="ATMEGA328U" gate="G$1" pin="AREF"/>
+<pinref part="ATMEGA328" gate="G$1" pin="AREF"/>
 <wire x1="22.86" y1="71.12" x2="15.24" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="73.66" x2="22.86" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="73.66" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
@@ -16423,7 +16436,7 @@ A3 Larger Frame</description>
 </net>
 <net name="AIFO" class="0">
 <segment>
-<pinref part="ATMEGA328U" gate="G$1" pin="PD0(RXD)"/>
+<pinref part="ATMEGA328" gate="G$1" pin="PD0(RXD)"/>
 <wire x1="81.28" y1="58.42" x2="83.82" y2="58.42" width="0.1524" layer="91"/>
 <label x="83.82" y="58.42" size="1.778" layer="95"/>
 </segment>
@@ -16440,7 +16453,7 @@ A3 Larger Frame</description>
 </net>
 <net name="AOFI" class="0">
 <segment>
-<pinref part="ATMEGA328U" gate="G$1" pin="PD1(TXD)"/>
+<pinref part="ATMEGA328" gate="G$1" pin="PD1(TXD)"/>
 <wire x1="81.28" y1="55.88" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
 <label x="83.82" y="55.88" size="1.778" layer="95"/>
 </segment>
@@ -16709,7 +16722,7 @@ A3 Larger Frame</description>
 <label x="58.42" y="2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ATMEGA328U" gate="G$1" pin="PB4(MISO)"/>
+<pinref part="ATMEGA328" gate="G$1" pin="PB4(MISO)"/>
 <wire x1="81.28" y1="25.4" x2="83.82" y2="25.4" width="0.1524" layer="91"/>
 <label x="83.82" y="25.4" size="1.778" layer="95"/>
 </segment>
@@ -16726,7 +16739,7 @@ A3 Larger Frame</description>
 <label x="218.44" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ATMEGA328U" gate="G$1" pin="PB5(SCK)"/>
+<pinref part="ATMEGA328" gate="G$1" pin="PB5(SCK)"/>
 <wire x1="81.28" y1="22.86" x2="83.82" y2="22.86" width="0.1524" layer="91"/>
 <label x="83.82" y="22.86" size="1.778" layer="95"/>
 </segment>
@@ -16771,7 +16784,7 @@ A3 Larger Frame</description>
 <net name="N$33" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="1"/>
-<pinref part="ATMEGA328U" gate="G$1" pin="PB6(XTAL1/TOSC1)"/>
+<pinref part="ATMEGA328" gate="G$1" pin="PB6(XTAL1/TOSC1)"/>
 <wire x1="27.94" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <junction x="27.94" y="63.5"/>
@@ -16780,7 +16793,7 @@ A3 Larger Frame</description>
 </net>
 <net name="N$34" class="0">
 <segment>
-<pinref part="ATMEGA328U" gate="G$1" pin="PB7(XTAL2/TOSC2)"/>
+<pinref part="ATMEGA328" gate="G$1" pin="PB7(XTAL2/TOSC2)"/>
 <pinref part="Q2" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="58.42" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
@@ -16886,7 +16899,7 @@ A3 Larger Frame</description>
 </net>
 <net name="X-STOP" class="0">
 <segment>
-<pinref part="ATMEGA328U" gate="G$1" pin="PB1(OC1A)"/>
+<pinref part="ATMEGA328" gate="G$1" pin="PB1(OC1A)"/>
 <wire x1="81.28" y1="33.02" x2="83.82" y2="33.02" width="0.1524" layer="91"/>
 <label x="83.82" y="33.02" size="1.778" layer="95"/>
 </segment>
@@ -16898,7 +16911,7 @@ A3 Larger Frame</description>
 </net>
 <net name="Y-STOP" class="0">
 <segment>
-<pinref part="ATMEGA328U" gate="G$1" pin="PB2(SS/OC1B)"/>
+<pinref part="ATMEGA328" gate="G$1" pin="PB2(SS/OC1B)"/>
 <wire x1="81.28" y1="30.48" x2="83.82" y2="30.48" width="0.1524" layer="91"/>
 <label x="83.82" y="30.48" size="1.778" layer="95"/>
 </segment>
@@ -16910,7 +16923,7 @@ A3 Larger Frame</description>
 </net>
 <net name="Z-STOP" class="0">
 <segment>
-<pinref part="ATMEGA328U" gate="G$1" pin="PB3(MOSI/OC2)"/>
+<pinref part="ATMEGA328" gate="G$1" pin="PB3(MOSI/OC2)"/>
 <wire x1="81.28" y1="27.94" x2="83.82" y2="27.94" width="0.1524" layer="91"/>
 <label x="83.82" y="27.94" size="1.778" layer="95"/>
 </segment>
@@ -16926,24 +16939,23 @@ A3 Larger Frame</description>
 <pinref part="LED1" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="!RESET1" class="0">
-<segment>
-<wire x1="33.02" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="83.82" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
-<junction x="25.4" y="81.28"/>
-<pinref part="S1" gate="S" pin="3"/>
-<pinref part="S1" gate="S" pin="4"/>
-<pinref part="ATMEGA328U" gate="G$1" pin="PC6(/RESET)"/>
-</segment>
+<net name="RESET" class="0">
 <segment>
 <pinref part="JP6" gate="A" pin="4"/>
 <wire x1="88.9" y1="0" x2="99.06" y2="0" width="0.1524" layer="91"/>
 <label x="99.06" y="0" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="ATMEGA328" gate="G$1" pin="PC6(/RESET)"/>
+<pinref part="S1" gate="S" pin="4"/>
+<pinref part="S1" gate="S" pin="3"/>
+<wire x1="25.4" y1="83.82" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="81.28" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="G-RESET" class="0">
 <segment>
-<pinref part="ATMEGA328U" gate="G$1" pin="PC0(ADC0)"/>
+<pinref part="ATMEGA328" gate="G$1" pin="PC0(ADC0)"/>
 <wire x1="81.28" y1="81.28" x2="83.82" y2="81.28" width="0.1524" layer="91"/>
 <label x="83.82" y="81.28" size="1.778" layer="95"/>
 </segment>
@@ -16955,7 +16967,7 @@ A3 Larger Frame</description>
 </net>
 <net name="FEED-HOLD" class="0">
 <segment>
-<pinref part="ATMEGA328U" gate="G$1" pin="PC1(ADC1)"/>
+<pinref part="ATMEGA328" gate="G$1" pin="PC1(ADC1)"/>
 <wire x1="81.28" y1="78.74" x2="83.82" y2="78.74" width="0.1524" layer="91"/>
 <label x="83.82" y="78.74" size="1.778" layer="95"/>
 </segment>
@@ -16967,7 +16979,7 @@ A3 Larger Frame</description>
 </net>
 <net name="CYCLE-START" class="0">
 <segment>
-<pinref part="ATMEGA328U" gate="G$1" pin="PC2(ADC2)"/>
+<pinref part="ATMEGA328" gate="G$1" pin="PC2(ADC2)"/>
 <wire x1="81.28" y1="76.2" x2="83.82" y2="76.2" width="0.1524" layer="91"/>
 <label x="83.82" y="76.2" size="1.778" layer="95"/>
 </segment>
@@ -16979,14 +16991,14 @@ A3 Larger Frame</description>
 </net>
 <net name="COOLANT-FLOOD" class="0">
 <segment>
-<pinref part="ATMEGA328U" gate="G$1" pin="PC3(ADC3)"/>
+<pinref part="ATMEGA328" gate="G$1" pin="PC3(ADC3)"/>
 <wire x1="81.28" y1="73.66" x2="83.82" y2="73.66" width="0.1524" layer="91"/>
 <label x="83.82" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="COOLAND-MIST" class="0">
 <segment>
-<pinref part="ATMEGA328U" gate="G$1" pin="PC4(ADC4/SDA)"/>
+<pinref part="ATMEGA328" gate="G$1" pin="PC4(ADC4/SDA)"/>
 <wire x1="81.28" y1="71.12" x2="83.82" y2="71.12" width="0.1524" layer="91"/>
 <label x="83.82" y="71.12" size="1.778" layer="95"/>
 </segment>
@@ -16994,6 +17006,68 @@ A3 Larger Frame</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,33.02,71.12,ATMEGA328U,AVCC,5V,,,"/>
+<approved hash="104,1,33.02,45.72,ATMEGA328U,VCC,5V,,,"/>
+<approved hash="104,1,177.8,43.18,STEPPERDRIVER,GNDMOT,GND,,,"/>
+<approved hash="104,1,177.8,45.72,STEPPERDRIVER,GNDVDD,GND,,,"/>
+<approved hash="104,1,177.8,58.42,STEPPERDRIVER,MOT-1A,N$3,,,"/>
+<approved hash="104,1,177.8,55.88,STEPPERDRIVER,MOT-1B,N$4,,,"/>
+<approved hash="104,1,177.8,60.96,STEPPERDRIVER,MOT-2A,N$2,,,"/>
+<approved hash="104,1,177.8,63.5,STEPPERDRIVER,MOT-2B,N$1,,,"/>
+<approved hash="104,1,142.24,73.66,STEPPERDRIVER,VDD,5V,,,"/>
+<approved hash="104,1,177.8,73.66,STEPPERDRIVER,VMOT,12V,,,"/>
+<approved hash="104,1,177.8,-22.86,STEPPERDRIVER1,GNDMOT,GND,,,"/>
+<approved hash="104,1,177.8,-20.32,STEPPERDRIVER1,GNDVDD,GND,,,"/>
+<approved hash="104,1,177.8,-7.62,STEPPERDRIVER1,MOT-1A,N$11,,,"/>
+<approved hash="104,1,177.8,-10.16,STEPPERDRIVER1,MOT-1B,N$12,,,"/>
+<approved hash="104,1,177.8,-5.08,STEPPERDRIVER1,MOT-2A,N$10,,,"/>
+<approved hash="104,1,177.8,-2.54,STEPPERDRIVER1,MOT-2B,N$9,,,"/>
+<approved hash="104,1,142.24,7.62,STEPPERDRIVER1,VDD,5V,,,"/>
+<approved hash="104,1,177.8,7.62,STEPPERDRIVER1,VMOT,12V,,,"/>
+<approved hash="104,1,281.94,43.18,STEPPERDRIVER2,GNDMOT,GND,,,"/>
+<approved hash="104,1,281.94,45.72,STEPPERDRIVER2,GNDVDD,GND,,,"/>
+<approved hash="104,1,281.94,58.42,STEPPERDRIVER2,MOT-1A,N$19,,,"/>
+<approved hash="104,1,281.94,55.88,STEPPERDRIVER2,MOT-1B,N$20,,,"/>
+<approved hash="104,1,281.94,60.96,STEPPERDRIVER2,MOT-2A,N$18,,,"/>
+<approved hash="104,1,281.94,63.5,STEPPERDRIVER2,MOT-2B,N$17,,,"/>
+<approved hash="104,1,246.38,73.66,STEPPERDRIVER2,VDD,5V,,,"/>
+<approved hash="104,1,281.94,73.66,STEPPERDRIVER2,VMOT,12V,,,"/>
+<approved hash="104,1,281.94,-22.86,STEPPERDRIVER3,GNDMOT,GND,,,"/>
+<approved hash="104,1,281.94,-20.32,STEPPERDRIVER3,GNDVDD,GND,,,"/>
+<approved hash="104,1,281.94,-7.62,STEPPERDRIVER3,MOT-1A,N$27,,,"/>
+<approved hash="104,1,281.94,-10.16,STEPPERDRIVER3,MOT-1B,N$28,,,"/>
+<approved hash="104,1,281.94,-5.08,STEPPERDRIVER3,MOT-2A,N$26,,,"/>
+<approved hash="104,1,281.94,-2.54,STEPPERDRIVER3,MOT-2B,N$25,,,"/>
+<approved hash="104,1,246.38,7.62,STEPPERDRIVER3,VDD,5V,,,"/>
+<approved hash="104,1,281.94,7.62,STEPPERDRIVER3,VMOT,12V,,,"/>
+<approved hash="208,1,160.02,124.46,5V,out,,,,"/>
+<approved hash="208,1,170.18,129.54,5V,sup,,,,"/>
+<approved hash="208,1,116.84,88.9,5V,sup,,,,"/>
+<approved hash="208,1,116.84,22.86,5V,sup,,,,"/>
+<approved hash="208,1,220.98,88.9,5V,sup,,,,"/>
+<approved hash="208,1,220.98,22.86,5V,sup,,,,"/>
+<approved hash="208,1,15.24,45.72,5V,sup,,,,"/>
+<approved hash="208,1,78.74,139.7,5V,sup,,,,"/>
+<approved hash="208,1,96.52,106.68,5V,sup,,,,"/>
+<approved hash="208,1,15.24,71.12,5V,sup,,,,"/>
+<approved hash="208,1,99.06,5.08,5V,sup,,,,"/>
+<approved hash="106,1,81.28,71.12,COOLAND-MIST,,,,,"/>
+<approved hash="106,1,81.28,73.66,COOLANT-FLOOD,,,,,"/>
+<approved hash="209,1,142.24,45.72,N$5,,,,,"/>
+<approved hash="209,1,142.24,43.18,N$5,,,,,"/>
+<approved hash="209,1,142.24,-20.32,N$13,,,,,"/>
+<approved hash="209,1,142.24,-22.86,N$13,,,,,"/>
+<approved hash="209,1,246.38,45.72,N$21,,,,,"/>
+<approved hash="209,1,246.38,43.18,N$21,,,,,"/>
+<approved hash="209,1,246.38,-20.32,N$29,,,,,"/>
+<approved hash="209,1,246.38,-22.86,N$29,,,,,"/>
+<approved hash="107,1,25.4,81.28,RESET,GND,,,,"/>
+<approved hash="107,1,25.4,81.28,RESET,GND,,,,"/>
+<approved hash="108,1,25.4,81.28,RESET,,,,,"/>
+<approved hash="115,1,10.1177,162.755,USB_TTL,,,,,"/>
+<approved hash="117,1,25.4,82.55,RESET,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
