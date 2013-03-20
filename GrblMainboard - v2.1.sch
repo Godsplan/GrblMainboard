@@ -15712,6 +15712,8 @@ A3 Larger Frame</description>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="SWT6" library="SparkFun" deviceset="M02" device="5MM" value="SPINDLE-DIR"/>
 <part name="SWT7" library="SparkFun" deviceset="M02" device="5MM" value="SPINDLE-ENABLE"/>
+<part name="R6" library="resistor" deviceset="R-EU_" device="0207/10" value="10k"/>
+<part name="U$15" library="SparkFun" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15893,6 +15895,8 @@ A3 Larger Frame</description>
 <instance part="GND23" gate="1" x="287.02" y="106.68"/>
 <instance part="SWT6" gate="G$1" x="307.34" y="162.56" rot="R180"/>
 <instance part="SWT7" gate="G$1" x="307.34" y="177.8" rot="R180"/>
+<instance part="R6" gate="G$1" x="35.56" y="88.9"/>
+<instance part="U$15" gate="G$1" x="43.18" y="88.9"/>
 </instances>
 <busses>
 </busses>
@@ -16433,6 +16437,11 @@ A3 Larger Frame</description>
 <wire x1="99.06" y1="2.54" x2="99.06" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="U$13" gate="G$1" pin="5V"/>
 </segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="U$15" gate="G$1" pin="5V"/>
+<wire x1="40.64" y1="88.9" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="AIFO" class="0">
 <segment>
@@ -16950,7 +16959,10 @@ A3 Larger Frame</description>
 <pinref part="S1" gate="S" pin="4"/>
 <pinref part="S1" gate="S" pin="3"/>
 <wire x1="25.4" y1="83.82" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="81.28" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="81.28" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="81.28" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="81.28" x2="30.48" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="G-RESET" class="0">
