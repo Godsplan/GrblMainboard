@@ -1,4 +1,4 @@
-GrblMainboard - v3.0
+GrblMainboard - v3.1
 =============
 
 A new Solution with Grbl Firmware to use cnc mills or 3d printers.
@@ -27,7 +27,10 @@ The GrblMainboard includes the following features:
 
 
 ---------------
-v3.3	- GrblMainboard Backfork
+v3.1
+- Added Hall Sensor Pinout
+
+v3.0 - GrblMainboard Backfork
 - Added Pin Locations
 - Added I2C Connectors for Sensors
 
